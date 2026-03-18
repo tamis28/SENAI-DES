@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora - Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Locadora - Cadastro de Filmes</h1>
+        <button onclick="abrirModal()">+ Novo Filme</button>
+    </header>
+    <main>
+        <table>
+        <thead>
+            <tr>
+                <th>Nome do Filme</th>
+                <th>Lançamento</th>
+                <th>Produtora</th>
+                <th>Gênero</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody id="dados"></tbody>
+        </table>
+    </main>
+    <!--Criar Modal-->
+    <div id="modalFil" class="modal">
+        <form id="formFil" class="modal-content">
+            <h2>Novo Filme</h2>
+            <input type="text" name="nomedofilme" placeholder="Nome do Filme" required>
+            <input type="date" name="lançamento" placeholder="Lançamento" required>
+            <input type="text" name="produtora" placeholder="Produtora" required>
+            <input type="text" name="genero" placeholder="Gênero" required>
+            <input type="text" name="imagem" id="imagem" required>
+            
+            <div class="modal-buttons">
+                <button type="submit">Salvar</button>
+                <button type="reset" onclick="fecharModal()">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

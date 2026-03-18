@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #ffd4f1;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+button{
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background: #ff53a0;
+    color: #fff;
+    border-radius: 4px;
+}
+button:hover{
+    opacity: 0.7;
+}
+
+main{
+    padding: 20px;
+}

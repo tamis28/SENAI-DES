@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #e3e2e2;
+    color: #000000;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    justify-content: space-around;
+}
+
+button{
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background: #ac1212;
+    color: #ffffff;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.2 ease;
+
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#container{
+    padding: 278px;
+    background: url("https://img.freepik.com/fotos-gratis/variedade-de-elementos-de-cinema-em-fundo-vermelho-com-espaco-de-copia_23-2148457848.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
